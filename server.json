@@ -1,0 +1,34 @@
+{
+    "students":[
+        {
+        "id": 1,
+        "name": "Paula",
+        "email": "paula@accenture.com.br",
+        "age": 23,
+        "avatar": "/candidates/avatar1.png"
+    },
+    {
+        "id": 2,
+        "name": "Pedro",
+        "email": "pedro@accenture.com.br",
+        "age": 25,
+        "avatar": "/candidates/avatar2.png"
+    },
+    {
+        "id": 3,
+        "name": "Pamela",
+        "email": "pamela@accenture.com.br",
+        "age": 30,
+        "avatar": "/candidates/avatar1.png"
+        
+    },
+    {
+        "id": 4,
+        "name": "Plinio",
+        "email": "plinio@accenture.com.br",
+        "age": 45,
+        "avatar": "/candidates/avatar2.png"
+    }
+]
+}
+

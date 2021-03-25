@@ -1,3 +1,57 @@
+# Lista de Candidatos - React Redux
+
+
+Projeto criado durante treinamento React com [Douglas Morais](https://github.com/mrdouglasmorais)
+
+
+![Capa do Projeto](/docs/capa.JPG)
+
+
+## Dependências e pacotes
+
+
+[Node](https://nodejs.org/en/)
+
+
+[json-server](https://www.npmjs.com/package/json-server)
+
+
+[reduux](https://redux.js.org/)
+
+
+[react-redux](https://react-redux.js.org/)
+
+
+[Styled-Components](https://styled-components.com/)
+
+
+[types-styled-components](https://www.npmjs.com/package/@types/styled-components)
+
+
+[react-axios](https://www.npmjs.com/package/react-axios)
+
+
+[frame-motion](https://www.framer.com/api/motion/)
+
+
+
+## Comandos para iniciar projeto
+
+
+Dentro do diretório do projeto via prompt, você pode rodar o comando:
+
+
+### `npm start`
+
+
+Após abra o link [http://localhost:3000](http://localhost:3000) para visualizar o projeto em seu navegador.
+
+
+Quaisquer falhas serão exibidas no prompt
+
+
+# >
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
