@@ -1,18 +1,21 @@
 import { Provider } from 'react-redux';
-import store from './store';
+import { ToastContainer } from 'react-toastify';
 
-import AboutUs from './components/AboutUS';
+import store from './store';
+import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 
-import './assets/standard.css';
+import './assets/standard.css'
+import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <Provider store={store}>
-        <Home />
-        <AboutUs />
-      </Provider>
+    <Provider store={store}>
+      <Home />
+      <AboutUs />
+      <ToastContainer />
+    </Provider>
     </>
   );
 }
