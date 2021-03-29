@@ -139,7 +139,7 @@ const Home: React.FC = () => {
                     <input onChange={e => setName(e.target.value)} placeholder="Nome do aluno" type="text" name="name" />
                     <input onChange={e => setEmail(e.target.value)} placeholder="Email" type="text" name="email" />
                     <input onChange={e => setAge(e.target.value)} placeholder="Idade" type="number" name="age" />
-                    {() => setAvatar('/candidates/avatar1.png')}
+                    {() => setAvatar('/candidates/avatar2.png')}
                     <input type="submit" value="cadastrar" /> 
                 </FormCadastro>
             </div>
