@@ -67,7 +67,7 @@ const AboutUs: React.FC = () => {
                         animate={{ y: 15 }}
                         transition={{ duration: 1 }}
                         >
-                        <img src={user.avatar} alt={user.name} />
+                        {/*<img src={user.avatar} alt={user.name} />*/}
                         <p>{user.name}</p>
                         <p>{user.email}</p>
                     </ItemMatriculas>
