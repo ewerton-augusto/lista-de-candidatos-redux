@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import store from './store';
 import Home from './components/Home';
-import AboutUs from './components/AboutUs';
+import AboutUS from './components/AboutUS';
 
 
 const App: React.FC = () => {
@@ -15,7 +15,7 @@ const App: React.FC = () => {
     <>
     <Provider store={store}>
       <Home />
-      <AboutUs />
+      <AboutUS />
       <ToastContainer />
     </Provider>
     </>

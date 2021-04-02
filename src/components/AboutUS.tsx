@@ -53,7 +53,7 @@ const ItemMatriculas = styled.li`
          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
-const AboutUs: React.FC = () => {
+const AboutUS: React.FC = () => {
     const state = useSelector((state: IGlobalState) => state.users)
 
     return (
@@ -77,4 +77,4 @@ const AboutUs: React.FC = () => {
     );
 }
 
-export default AboutUs;
+export default AboutUS;
